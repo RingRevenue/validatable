@@ -4,7 +4,7 @@ module Validatable
     klass.extend Validatable::Macros
   end
 
-  def initialize
+  def initialize(*args)
     @errors ||= Validatable::Errors.new
     @times_validated_hash = {}
     super
