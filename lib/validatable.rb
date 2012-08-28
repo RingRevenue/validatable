@@ -28,6 +28,7 @@ require 'validatable/validations/validates_exclusion_of'
 require 'validatable/validations/validates_inclusion_of'
 require 'validatable/validations/validates_each'
 require 'validatable/validations/validates_associated'
+require 'validatable/validations/validates_block'
 
 module Validatable
   Version = '1.8.4'
